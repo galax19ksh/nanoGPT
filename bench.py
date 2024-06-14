@@ -7,6 +7,7 @@ import numpy as np
 import time
 import torch
 from model import GPTConfig, GPT
+from huggingface import transformer #added
 
 # -----------------------------------------------------------------------------
 batch_size = 12
